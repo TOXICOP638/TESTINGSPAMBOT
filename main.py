@@ -15,7 +15,7 @@ for name in files:
     with open(name) as a:
         patt = Path(a.name)
         plugin_name = patt.stem
-        load_plugins(plugin_name.replace(".py", ""))
+        load_plugins(plugin_name.replace(".py", "Toxicplugin"))
 
 print("\☢️𝐓𝐎𝐗𝐈𝐂☢️ 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒 𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 😎🤘🏻\nᴍʏ ᴍᴀsᴛᴇʀ ---> @TOHAR_BAAPU_XD")
 
