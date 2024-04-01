@@ -37,7 +37,7 @@ async def start(event):
         TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗧𝗢𝗫𝗜𝗖-𝗫𝗗](https://t.me/TOHAR_BAAPU_XD)**\n\n"
         TEXT += f"» **𝗧𝗢𝗫𝗜𝗖-𝗫𝗗 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
         TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
-        await event.client.send_file(
+        await event.client.send_file()
                 event.chat_id,
                 "https://graph.org/file/40c093f75c662d5d8e8cd.jpg",
                 caption=TEXT, 
