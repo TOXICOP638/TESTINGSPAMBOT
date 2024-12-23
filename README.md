@@ -42,7 +42,7 @@
 1. **Upgrade & Update:**
    ```bash
    sudo apt-get update && sudo apt-get upgrade -y
-  ```
+   ```
 2. **Setting up PIP**
    ```bash
    sudo pip3 install -U pip
